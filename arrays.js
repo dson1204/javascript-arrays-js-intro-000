@@ -22,6 +22,9 @@ function accessElementInArray(array, index){
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift()
   return chocolateBars;
+funtion removeElementFromBeginningOfArray(chocolateBars) {
+    return chocolateBars.slice(1);
+  }
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   chocolateBars.pop();
@@ -29,7 +32,4 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars){
 }
 function removeElementFromEndOfArray(chocolateBars){
   return chocolateBars.slice(0, chocolateBars.length - 1);
-}
-funtion removeElementFromBeginningOfArray(chocolateBars) {
-  return chocolateBars.slice(1);
 }
