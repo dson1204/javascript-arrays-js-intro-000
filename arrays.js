@@ -22,9 +22,9 @@ function accessElementInArray(array, index){
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift()
   return chocolateBars;
-funtion removeElementFromBeginningOfArray(chocolateBars) {
+}
+function removeElementFromBeginningOfArray(chocolateBars) {
     return chocolateBars.slice(1);
-  }
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars){
   chocolateBars.pop();
